@@ -1,0 +1,36 @@
+/* Purple: hsl(299, 52%, 32%)
+PurpleExemplo: hsl(250,66%, 75%); */
+
+$hue: 299;
+$sat: 52%;
+$lig: 32%;
+
+/* COLORS */
+$primary-color: hsl($hue, $sat, $lig);
+$primary-color-alt: hsl($hue, $sat, 57%);
+$title-color: hsl($hue, 12%, 15%);
+$text-color: hsl($hue, 12%, 45%);
+$text-color-light: hsl($hue, 8%, 75%);
+$text-color-lighten: hsl($hue, 8%, 92%);
+$body-color: hsl($hue, 100%, 99%);
+$container-color: #fff;
+$secondary-color: #865886;
+
+/* FONTS */
+$font-title: 'Iceland', cursive;
+$font-body: 'Inter Tight', sans-serif;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+@media screen and (min-width: 968px) {
+  :root {
+    $h2-font-size: 1.5rem;
+    $h3-font-size: 1.25rem;
+    $normal-font-size: 1rem;
+    $small-font-size: 0.875rem;
+    $smaller-font-size: 0.814rem;
+  }
+}

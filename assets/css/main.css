@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Purple: hsl(299, 52%, 32%)
+PurpleExemplo: hsl(250,66%, 75%); */
+/* COLORS */
+/* FONTS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 0.938rem;
+  background-color: hsl(299, 100%, 99%);
+  color: hsl(299, 12%, 45%);
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(299, 12%, 15%);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Purple: hsl(299, 52%, 32%)
+PurpleExemplo: hsl(250,66%, 75%); */
+/* COLORS */
+/* FONTS */
+/* ======== CLASSES REUTILIZAVÉIS ======== */
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */

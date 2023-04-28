@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch assets/sass/main.scss:assets/css/main.css"
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
   },
   "author": "",
   "license": "ISC",

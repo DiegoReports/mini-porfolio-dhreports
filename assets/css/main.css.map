@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/variables.scss","../sass/reset.scss","../sass/main.scss"],"names":[],"mappings":";AAAA;AAAA;AAOA;AAWA;AChBA;EACE;EACA;EACA;;;AAGF;EACE,aDWU;ECVV,WDaiB;ECZjB,kBDGW;ECFX,ODDW;;;ACIb;AAAA;AAAA;EAGE,ODRY;ECSZ;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA;;;ADhCF;AAAA;AAOA;AAWA;AEfA;AACA;EACE;EACA;EACA;;;AAGF;EACE;EACA","file":"main.css"}
