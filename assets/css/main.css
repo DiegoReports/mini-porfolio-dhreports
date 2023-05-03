@@ -40,6 +40,115 @@ img {
 PurpleExemplo: hsl(250,66%, 75%); */
 /* COLORS */
 /* FONTS */
+.profile {
+  position: relative;
+  padding-top: 3.5rem;
+}
+
+.profile__container {
+  row-gap: 2rem;
+}
+
+.profile__data {
+  display: grid;
+  text-align: center;
+}
+
+.profile__perfil {
+  width: 100px;
+  height: 100px;
+  /*
+  background: linear-gradient(
+    180deg,
+    hsla(($hue), ($sat), ($lig), 1) 0%,
+    hsla(($hue), ($sat), ($lig), 0.2) 100%
+  );
+  border-radius: 50%; */
+  overflow: hidden;
+}
+.profile__perfil img {
+  /*    width: 75px; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.profile__border {
+  border: 3.5px solid hsl(299, 52%, 32%);
+  justify-self: center;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.profile__name {
+  font-size: 1.25rem;
+}
+
+.profile__professional {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: hsl(299, 12%, 45%);
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+}
+
+.profile__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.75rem;
+}
+
+.profile__social-link {
+  font-size: 1.25rem;
+  color: hsl(299, 12%, 15%);
+  transition: 0.3s;
+}
+.profile__social-link:hover {
+  color: hsl(299, 52%, 32%);
+}
+
+.profile__info {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.profile__info-group {
+  text-align: center;
+}
+
+.profile__info-number {
+  font-size: 0.938rem;
+  margin-bottom: 0.25rem;
+}
+
+.profile__info-description {
+  font-size: 0.813rem;
+  font-weight: 500;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: hsl(299, 52%, 32%);
+  color: #fff;
+  padding: 1.15rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  box-shadow: 0 8px 24px hsla(299, 52%, 32%, 0.25);
+}
+.button i {
+  font-size: 1.25rem;
+}
+.button:hover {
+  background-color: hsl(299, 52%, 57%);
+}
+
 /* ======== CLASSES REUTILIZAVÉIS ======== */
 .container {
   max-width: 968px;
