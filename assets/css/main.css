@@ -249,6 +249,47 @@ PurpleExemplo: hsl(250,66%, 75%); */
   padding: 0.5rem;
 }
 
+.skills__content {
+  row-gap: 3.5rem;
+}
+
+.skills__title {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
+.skills__data i {
+  font-size: 1rem;
+  color: hsl(299, 52%, 32%);
+}
+
+.skills__name {
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.skills__level {
+  font-size: 0.75rem;
+}
+
 /* ======== CLASSES REUTILIZAVÉIS ======== */
 .container {
   max-width: 968px;
