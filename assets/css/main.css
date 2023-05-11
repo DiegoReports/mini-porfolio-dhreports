@@ -6,12 +6,39 @@ PurpleExemplo: hsl(250,66%, 75%); */
 /* =========== Variaveis do Tema Dark =========== */
 body.dark-theme {
   background-color: hsl(299, 40%, 8%);
-  /*     $title-color: $title-color-dark;
-  $text-color: $text-color-dark;
-  $body-color: $body-color-dark;
-  $container-color: $container-color-dark; */
+  color: text-color-dark;
+}
+body.dark-theme .filters__button:hover,
+body.dark-theme .filter-tab-active {
+  background-color: hsl(299, 40%, 8%);
+}
+body.dark-theme .button__gray,
+body.dark-theme .filters__button,
+body.dark-theme .profile__social-link,
+body.dark-theme h3,
+body.dark-theme h2 {
+  color: hsl(299, 12%, 95%);
+}
+body.dark-theme .profile__professional {
+  color: hsl(299, 12%, 75%);
 }
 
+/* $title-color-dark: hsl($hue, 12%, 95%);
+$text-color-dark: hsl($hue, 12%, 75%);
+$body-color-dark: hsl($hue, 40%, 8%);
+$container-color-dark: hsl($hue, 24%, 12%);
+
+body {
+  &.dark-theme {
+    background-color: $body-color-dark;
+
+    $title-color: $title-color-dark;
+    $text-color: $text-color-dark;
+    $body-color: $body-color-dark;
+    $container-color: $container-color-dark;
+  }
+}
+ */
 * {
   margin: 0;
   padding: 0;
@@ -52,12 +79,39 @@ PurpleExemplo: hsl(250,66%, 75%); */
 /* =========== Variaveis do Tema Dark =========== */
 body.dark-theme {
   background-color: hsl(299, 40%, 8%);
-  /*     $title-color: $title-color-dark;
-  $text-color: $text-color-dark;
-  $body-color: $body-color-dark;
-  $container-color: $container-color-dark; */
+  color: text-color-dark;
+}
+body.dark-theme .filters__button:hover,
+body.dark-theme .filter-tab-active {
+  background-color: hsl(299, 40%, 8%);
+}
+body.dark-theme .button__gray,
+body.dark-theme .filters__button,
+body.dark-theme .profile__social-link,
+body.dark-theme h3,
+body.dark-theme h2 {
+  color: hsl(299, 12%, 95%);
+}
+body.dark-theme .profile__professional {
+  color: hsl(299, 12%, 75%);
 }
 
+/* $title-color-dark: hsl($hue, 12%, 95%);
+$text-color-dark: hsl($hue, 12%, 75%);
+$body-color-dark: hsl($hue, 40%, 8%);
+$container-color-dark: hsl($hue, 24%, 12%);
+
+body {
+  &.dark-theme {
+    background-color: $body-color-dark;
+
+    $title-color: $title-color-dark;
+    $text-color: $text-color-dark;
+    $body-color: $body-color-dark;
+    $container-color: $container-color-dark;
+  }
+}
+ */
 .change-theme {
   position: absolute;
   top: 1.5rem;
@@ -88,13 +142,6 @@ body.dark-theme {
 .profile__perfil {
   width: 100px;
   height: 100px;
-  /*
-  background: linear-gradient(
-    180deg,
-    hsla(($hue), ($sat), ($lig), 1) 0%,
-    hsla(($hue), ($sat), ($lig), 0.2) 100%
-  );
-  border-radius: 50%; */
   overflow: hidden;
 }
 .profile__perfil img {
