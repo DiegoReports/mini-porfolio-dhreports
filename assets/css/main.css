@@ -277,7 +277,7 @@ PurpleExemplo: hsl(250,66%, 75%); */
 }
 .skills__data i {
   font-size: 1rem;
-  color: hsl(299, 52%, 32%);
+  color: hsl(299, 52%, 57%);
 }
 
 .skills__name {
@@ -288,6 +288,20 @@ PurpleExemplo: hsl(250,66%, 75%); */
 
 .skills__level {
   font-size: 0.75rem;
+}
+
+/* Ocultar e exibir projetos e skills */
+.filters [data-content] {
+  display: none;
+}
+
+.filters__active[data-content] {
+  display: grid;
+}
+
+/*  Botão de filtro ativo */
+.filter-tab-active {
+  background-color: hsl(299, 100%, 99%);
 }
 
 /* ======== CLASSES REUTILIZAVÉIS ======== */

@@ -26,7 +26,7 @@
 
   i {
     font-size: 1rem;
-    color: $primary-color;
+    color: $primary-color-alt;
   }
 }
 
@@ -38,4 +38,19 @@
 
 .skills__level {
   font-size: $smaller-font-size;
+}
+
+/* Ocultar e exibir projetos e skills */
+.filters [data-content] {
+  display: none;
+}
+
+.filters__active[data-content] {
+  display: grid;
+}
+
+/*  Botão de filtro ativo */
+
+.filter-tab-active {
+  background-color: $body-color;
 }
