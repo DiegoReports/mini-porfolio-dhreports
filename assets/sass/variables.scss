@@ -25,6 +25,23 @@ $normal-font-size: 0.938rem;
 $small-font-size: 0.813rem;
 $smaller-font-size: 0.75rem;
 
+/* =========== Variaveis do Tema Dark =========== */
+
+$title-color-dark: hsl($hue, 12%, 95%);
+$text-color-dark: hsl($hue, 12%, 75%);
+$body-color-dark: hsl($hue, 40%, 8%);
+$container-color-dark: hsl($hue, 24%, 12%);
+
+body {
+  &.dark-theme {
+    background-color: $body-color-dark;
+    /*     $title-color: $title-color-dark;
+    $text-color: $text-color-dark;
+    $body-color: $body-color-dark;
+    $container-color: $container-color-dark; */
+  }
+}
+
 @media screen and (min-width: 968px) {
   :root {
     $h2-font-size: 1.5rem;
@@ -33,12 +50,4 @@ $smaller-font-size: 0.75rem;
     $small-font-size: 0.875rem;
     $smaller-font-size: 0.814rem;
   }
-}
-
-/* =========== Variaveis do Tema Dark =========== */
-body.dark-theme {
-  $title-color: hsl($hue, 12%, 95%);
-  $text-color: hsl($hue, 12%, 75%);
-  $body-color: hsl($hue, 40%, 8%);
-  $container-color: hsl($hue, 24%, 12%);
 }

@@ -4,6 +4,14 @@ PurpleExemplo: hsl(250,66%, 75%); */
 /* COLORS */
 /* FONTS */
 /* =========== Variaveis do Tema Dark =========== */
+body.dark-theme {
+  background-color: hsl(299, 40%, 8%);
+  /*     $title-color: $title-color-dark;
+  $text-color: $text-color-dark;
+  $body-color: $body-color-dark;
+  $container-color: $container-color-dark; */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +50,27 @@ PurpleExemplo: hsl(250,66%, 75%); */
 /* COLORS */
 /* FONTS */
 /* =========== Variaveis do Tema Dark =========== */
+body.dark-theme {
+  background-color: hsl(299, 40%, 8%);
+  /*     $title-color: $title-color-dark;
+  $text-color: $text-color-dark;
+  $body-color: $body-color-dark;
+  $container-color: $container-color-dark; */
+}
+
+.change-theme {
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+  font-size: 1.25rem;
+  color: hsl(299, 52%, 32%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.change-theme:hover {
+  color: hsl(299, 52%, 57%);
+}
+
 .profile {
   position: relative;
   padding-top: 3.5rem;
@@ -328,18 +357,7 @@ PurpleExemplo: hsl(250,66%, 75%); */
   background-color: hsl(299, 38%, 38%);
 }
 
-.change-theme {
-  position: absolute;
-  top: 1.5rem;
-  right: 0;
-  font-size: 1.25rem;
-  color: hsl(299, 52%, 32%);
-  cursor: pointer;
-  transition: 0.3s;
-}
-.change-theme:hover {
-  color: hsl(299, 52%, 57%);
-} /* ======== CLASSES REUTILIZAVÉIS ======== */
+/* ======== CLASSES REUTILIZAVÉIS ======== */
 .container {
   max-width: 968px;
   margin-left: 1.5rem;
