@@ -304,6 +304,14 @@ PurpleExemplo: hsl(250,66%, 75%); */
   background-color: hsl(299, 100%, 99%);
 }
 
+.footer__copy {
+  display: block;
+  margin: 2.5rem 0.2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: hsl(299, 8%, 75%);
+}
+
 /* ======== CLASSES REUTILIZAVÉIS ======== */
 .container {
   max-width: 968px;
