@@ -20,3 +20,5 @@ tabs.forEach(tab => {
     tab.classList.add('filter-tab-active')
   })
 })
+
+/* ============ DARK THEME ============ */

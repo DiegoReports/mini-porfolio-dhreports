@@ -1,0 +1,13 @@
+.change-theme {
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+  font-size: 1.25rem;
+  color: $primary-color;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: $primary-color-alt;
+  }
+}

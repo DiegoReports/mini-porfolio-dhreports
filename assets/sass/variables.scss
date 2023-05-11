@@ -34,3 +34,11 @@ $smaller-font-size: 0.75rem;
     $smaller-font-size: 0.814rem;
   }
 }
+
+/* =========== Variaveis do Tema Dark =========== */
+body.dark-theme {
+  $title-color: hsl($hue, 12%, 95%);
+  $text-color: hsl($hue, 12%, 75%);
+  $body-color: hsl($hue, 40%, 8%);
+  $container-color: hsl($hue, 24%, 12%);
+}
