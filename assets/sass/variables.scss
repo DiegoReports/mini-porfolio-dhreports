@@ -36,12 +36,36 @@ body {
     background-color: $body-color-dark;
     color: text-color-dark;
 
+    .button__gray {
+      color: $title-color-dark;
+      background-color: $container-color-dark;
+
+      &:hover {
+        background-color: hsl($hue, 24%, 16%);
+      }
+    }
+
+    .filters__content {
+      background-color: $container-color-dark;
+    }
+
+    &::-webkit-scrollbar {
+      background-color: hsl($hue, 8%, 16%);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: hsl($hue, 32%, 38%);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: hsl($hue, 52%, 68%);
+    }
+
     .filters__button:hover,
     .filter-tab-active {
       background-color: $body-color-dark;
     }
 
-    .button__gray,
     .filters__button,
     .profile__social-link,
     h3,
@@ -49,27 +73,17 @@ body {
       color: $title-color-dark;
     }
 
-    .profile__professional {
+    .profile__social-link:hover {
+      color: $primary-color;
+    }
+
+    .profile__professional,
+    .skills__level {
       color: $text-color-dark;
     }
   }
 }
-/* $title-color-dark: hsl($hue, 12%, 95%);
-$text-color-dark: hsl($hue, 12%, 75%);
-$body-color-dark: hsl($hue, 40%, 8%);
-$container-color-dark: hsl($hue, 24%, 12%);
 
-body {
-  &.dark-theme {
-    background-color: $body-color-dark;
-
-    $title-color: $title-color-dark;
-    $text-color: $text-color-dark;
-    $body-color: $body-color-dark;
-    $container-color: $container-color-dark;
-  }
-}
- */
 @media screen and (min-width: 968px) {
   :root {
     $h2-font-size: 1.5rem;
@@ -77,5 +91,34 @@ body {
     $normal-font-size: 1rem;
     $small-font-size: 0.875rem;
     $smaller-font-size: 0.814rem;
+  }
+}
+
+/* ======== BREACKPOINTS ======== */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile__info {
+    column-gap: 1.5rem;
+  }
+
+  .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .filters__content {
+    flex-wrap: wrap;
+  }
+
+  .skills__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
   }
 }
