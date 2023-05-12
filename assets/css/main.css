@@ -47,7 +47,7 @@ body.dark-theme .skills__level {
 
 /* ======== BREACKPOINTS ======== */
 /* Dispositivos pequenos */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 410px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -71,10 +71,44 @@ body.dark-theme .skills__level {
   }
 }
 /* Dispositivos médios */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
+  .filters__sections {
+    .projects__content {
+      display: grid;
+      grid-template-columns: 332px;
+      justify-content: center;
+    }
+  }
+} */
+@media screen and (min-width: 776px) {
   .projects__content {
-    grid-template-columns: 332px;
+    grid-template-columns: repeat(2, 332px);
     justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .change-theme {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+  .profile {
+    padding-top: 4rem;
+  }
+  .profile .profile__border {
+    width: 155px;
+    height: 155px;
+    margin-bottom: 1rem;
+  }
+  .profile .profile__border .profile__perfil {
+    width: 140px;
+    height: 140px;
+  }
+  .profile .profile__professional {
+    margin-bottom: 1.5rem;
   }
 }
 * {
@@ -159,7 +193,7 @@ body.dark-theme .skills__level {
 
 /* ======== BREACKPOINTS ======== */
 /* Dispositivos pequenos */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 410px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -183,10 +217,44 @@ body.dark-theme .skills__level {
   }
 }
 /* Dispositivos médios */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
+  .filters__sections {
+    .projects__content {
+      display: grid;
+      grid-template-columns: 332px;
+      justify-content: center;
+    }
+  }
+} */
+@media screen and (min-width: 776px) {
   .projects__content {
-    grid-template-columns: 332px;
+    grid-template-columns: repeat(2, 332px);
     justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .change-theme {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+  .profile {
+    padding-top: 4rem;
+  }
+  .profile .profile__border {
+    width: 155px;
+    height: 155px;
+    margin-bottom: 1rem;
+  }
+  .profile .profile__border .profile__perfil {
+    width: 140px;
+    height: 140px;
+  }
+  .profile .profile__professional {
+    margin-bottom: 1.5rem;
   }
 }
 .change-theme {
