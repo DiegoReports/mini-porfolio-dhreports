@@ -116,7 +116,7 @@ body {
   }
 
   .skills__box {
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -125,20 +125,36 @@ body {
 }
 
 /* Dispositivos médios */
-/* @media screen and (min-width: 576px) {
-  .filters__sections {
-    .projects__content {
-      display: grid;
-      grid-template-columns: 332px;
-      justify-content: center;
+@media screen and (min-width: 576px) {
+  .filters {
+    .filters__sections {
+      .projects__content {
+        /*  display: grid; */
+        grid-template-columns: 332px;
+        justify-content: center;
+      }
+    }
+
+    .filters__content {
+      width: 332px;
+      margin: 3rem auto;
     }
   }
-} */
+}
 
 @media screen and (min-width: 776px) {
-  .projects__content {
-    grid-template-columns: repeat(2, 332px);
-    justify-content: center;
+  .filters {
+    .filters__sections {
+      .projects__content {
+        grid-template-columns: repeat(2, 332px);
+        justify-content: center;
+      }
+    }
+
+    .filters__content {
+      width: 664px;
+      margin: 3rem auto;
+    }
   }
 }
 
@@ -169,6 +185,28 @@ body {
 
     .profile__professional {
       margin-bottom: 1.5rem;
+    }
+
+    .profile__info {
+      column-gap: 3rem;
+
+      .profile__info-description {
+        font-size: $small-font-size;
+      }
+    }
+
+    .profile__container {
+      .profile__buttons {
+        column-gap: 2rem;
+      }
+    }
+  }
+
+  .main {
+    .filters {
+      .projects__content.grid {
+        gap: 2rem 3rem;
+      }
     }
   }
 }
