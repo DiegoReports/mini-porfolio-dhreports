@@ -208,5 +208,22 @@ body {
         gap: 2rem 3rem;
       }
     }
+
+    .filters__sections {
+      .skills__content {
+        .skills__area {
+          .skills__title {
+            font-size: $normal-font-size;
+            margin-bottom: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer__copy {
+      margin: 4.5rem 0 2.5rem;
+    }
   }
 }
